@@ -73,18 +73,21 @@ if __name__ == "__main__":
     n4 = int(input("Введите длину n перестановок: "))
     count4, perms4 = gene_permutations(n4)
     print(count4)
-    for p in perms4: print(*p)
+    for p in perms4: 
+        print(*p)
 
     # Вариант 5. Лексикографическое перечисление k-меров
     let5 = input("Введите последовательность из максимум 10 символов, определяющих упорядоченный алфавит, через пробел: ").split()
     n5 = int(input("Введите натуральное число n <= 10: "))
-    for res in k_mers(let5, n5): print(res)
+    for res in k_mers(let5, n5): 
+        print(res)
 
     # Вариант 6. Лексикографическое перечисление k-меров
     n6 = int(input("Введите длину n перестановок: "))
     count6, perms6 = oriented_permutations(n6)
     print(count6)
-    for p in perms6: print(*p)
+    for p in perms6: 
+        print(*p)
 
     # Вариант 7. Первый закон Менделя
     k7, m7, n7 = map(int, input("Введите k, m, n: ").split())
