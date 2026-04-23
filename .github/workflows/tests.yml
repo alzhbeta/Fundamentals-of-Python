@@ -1,4 +1,4 @@
-name: Lab 1 Autotests
+name: Lab 1 Autotests and Linting
 
 on: [push]
 
@@ -7,12 +7,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
+
       - name: Install dependencies
-        run: pip install pytest pytest-cov
+        run: |
+          pip install pytest pytest-cov ruff
+
+      - name: Run Linter (Ruff)
+        # Этот робот проверит стиль кода
+        run: ruff check lab1/lab1.py
+
       - name: Run tests
-        # Робот заходит в папку lab1 и запускает тесты
+        # Этот робот проверит правильность решения
         run: pytest lab1/test_lab1.py
+
