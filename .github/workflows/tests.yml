@@ -18,10 +18,8 @@ jobs:
           pip install pytest pytest-cov ruff
 
       - name: Run Linter (Ruff)
-        # Этот робот проверит стиль кода
         run: ruff check lab1/lab1.py
 
       - name: Run tests
-        # Этот робот проверит правильность решения
         run: pytest lab1/test_lab1.py
 
