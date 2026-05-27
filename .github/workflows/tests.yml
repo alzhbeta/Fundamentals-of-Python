@@ -25,6 +25,7 @@ jobs:
 
       - name: Run tests for Lab 2 Variant 1
         run: python -m pytest lab2/test_main_v1.py -v
+        
       - name: Run tests for Lab 2 Variant 3
         run: python -m pytest lab2/test_main_v3.py -v
 
