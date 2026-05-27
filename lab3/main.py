@@ -2,6 +2,9 @@
 # ПРЕДСТАВЛЕНИЕ ДАННЫХ В PYTHON
 
 import matplotlib.pyplot as plt
+import matplotlib
+matplotlib.use('Agg')
+
 import statsmodels.api as sm
 from sklearn.datasets import load_iris, load_wine
 
