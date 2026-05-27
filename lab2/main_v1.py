@@ -1,3 +1,4 @@
+# ЛАБОРАТОРНАЯ РАБОТА №2 РАБОТА С ФАЙЛАМИ В PYTHON
 # Вариант 1. Вычисление GC-состава
 import os
 from Bio import SeqIO
