@@ -41,7 +41,7 @@ plt.close()
 # Задание 2. Построение графика динамики временных рядов
 # Вариант 1. Датасет co2 
 
-co2_data = sm.datasets.co2.load_dataframe().data
+co2_data = sm.datasets.co2.load().data
 co2_filtered = co2_data['1958':'1980']
 
 plt.plot(co2_filtered.index, co2_filtered['co2'])
@@ -54,7 +54,7 @@ plt.close()
 # Задание 2. Построение графика динамики временных рядов
 # Вариант 3. Датасет elnino
 
-elnino_table = sm.datasets.elnino.load_dataframe().data
+elnino_table = sm.datasets.elnino.load().data
 elnino_filtered = elnino_table[(elnino_table['YEAR'] >= 1990) & (elnino_table['YEAR'] <= 2010)]
 
 plt.plot(elnino_filtered['YEAR'], elnino_filtered['AIR'])
