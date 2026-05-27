@@ -1,1 +1,4 @@
-
+biopython>=1.80
+pytest>=7.0.0
+pytest-cov>=4.0.0
+flake8>=6.0.0
