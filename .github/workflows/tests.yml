@@ -15,26 +15,30 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install pytest pytest-cov ruff biopython
+          pip install pytest pytest-cov ruff biopython matplotlib scikit-learn statsmodels pandas
 
+      # Лабораторная работа 1
       - name: Run Linter for Lab 1 (Ruff)
         run: ruff check lab1/lab1.py || true
 
       - name: Run tests for Lab 1
         run: pytest lab1/test_lab1.py
 
+      # Лабораторная работа 2
       - name: Run tests for Lab 2 Variant 1
         run: python -m pytest lab2/test_main_v1.py -v
 
-      - name: Run tests for Lab 3
-        run: python -m pytest lab3/test_main.py -v
       - name: Run tests for Lab 2 Variant 3
         run: python -m pytest lab2/test_main_v3.py -v
 
+      # Лабораторная работа 3
+      - name: Run tests for Lab 3
+        run: python -m pytest lab3/test_main.py -v
+
+      # Сохранение картинок из Лабораторной работы 3
       - name: Upload Generated Plots
         uses: actions/upload-artifact@v4
         with:
           name: lab3-plots
           path: lab3/*.png
-
 
