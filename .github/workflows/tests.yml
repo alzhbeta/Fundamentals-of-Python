@@ -35,10 +35,9 @@ jobs:
       - name: Run tests for Lab 3
         run: python -m pytest lab3/test_main.py -v
 
-      # Сохранение картинок из Лабораторной работы 3
       - name: Upload Generated Plots
         uses: actions/upload-artifact@v4
         with:
           name: lab3-plots
-          path: lab3/*.png
+          path: "*.png"
 
