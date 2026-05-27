@@ -1,5 +1,5 @@
 import pytest
-from lab2.main import solve_variant_1
+from lab2.main_v1 import solve_variant_1
 
 TEST_DATA = {
     "test_1": {
