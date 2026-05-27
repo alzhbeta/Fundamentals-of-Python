@@ -17,6 +17,3 @@ def solve_variant_1(fasta_path: str) -> str:
             max_gc = gc_now
             best_id = record.id
     return f"{best_id}\n{max_gc}"
-
-if __name__ == "__main__":
-    print(solve_variant_1("tests/input_1.txt"))
