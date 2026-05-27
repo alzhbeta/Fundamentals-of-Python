@@ -1,0 +1,110 @@
+LOCUS       XM_015152211             120 bp    mRNA    linear   VRT 05-MAR-2026
+DEFINITION  Gallus gallus insulin mRNA, complete cds.
+VERSION     XM_015152211.1
+SOURCE      Gallus gallus (chicken)
+  ORGANISM  Gallus gallus
+FEATURES             Location/Qualifiers
+     CDS             1..120
+                     /product="insulin"
+ORIGIN      
+        1 atggcactgt ggatgcgcct cctgcccctg ctggcgctgc tggccctctg ggcgcccgcg
+//
+LOCUS       XM_015152212             120 bp    mRNA    linear   VRT 05-MAR-2026
+DEFINITION  Gallus gallus actin mRNA, complete cds.
+VERSION     XM_015152212.1
+SOURCE      Gallus gallus (chicken)
+  ORGANISM  Gallus gallus
+FEATURES             Location/Qualifiers
+     CDS             1..120
+                     /product="actin"
+ORIGIN      
+        1 atggatgatg atatcgccgc gctcgtcgtc gacaacggct ccggcatgtg caaggccggc
+//
+LOCUS       XM_015152213             120 bp    mRNA    linear   VRT 05-MAR-2026
+DEFINITION  Gallus gallus myoglobin mRNA, complete cds.
+VERSION     XM_015152213.1
+SOURCE      Gallus gallus (chicken)
+  ORGANISM  Gallus gallus
+FEATURES             Location/Qualifiers
+     CDS             1..120
+                     /product="myoglobin"
+ORIGIN      
+        1 atggtggacc tcgccgtgct cctggccaag gtcgaggccg acgtcgccgg ccacggccag
+//
+LOCUS       XM_015152214             120 bp    mRNA    linear   VRT 05-MAR-2026
+DEFINITION  Gallus gallus hemoglobin mRNA, complete cds.
+VERSION     XM_015152214.1
+SOURCE      Gallus gallus (chicken)
+  ORGANISM  Gallus gallus
+FEATURES             Location/Qualifiers
+     CDS             1..120
+                     /product="hemoglobin"
+ORIGIN      
+        1 atggtgctgt ccgccgccga caagaccaac gtcaaggccg cctggggcaa ggtcggcgcg
+//
+LOCUS       XM_015152215             120 bp    mRNA    linear   VRT 05-MAR-2026
+DEFINITION  Gallus gallus lysozyme mRNA, complete cds.
+VERSION     XM_015152215.1
+SOURCE      Gallus gallus (chicken)
+  ORGANISM  Gallus gallus
+FEATURES             Location/Qualifiers
+     CDS             1..120
+                     /product="lysozyme"
+ORIGIN      
+        1 atgggcctcc tcctcctcct cctcgtcgcc gccgccctcg gcgccgtcca cggccgcatg
+//
+LOCUS       CP099001                 120 bp    DNA     linear   BCT 12-MAY-2026
+DEFINITION  Denitrifying bacterium narG gene for nitrate reductase, complete cds.
+VERSION     CP099001.1
+SOURCE      denitrifying bacterium
+  ORGANISM  denitrifying bacterium
+FEATURES             Location/Qualifiers
+     CDS             1..120
+                     /product="nitrate reductase narG"
+ORIGIN      
+        1 atgaacgcca gcgccctcgc cgccctcgtc gccgacgcca tcgccgccgc cgacgccaac
+//
+LOCUS       CP099002                 120 bp    DNA     linear   BCT 12-MAY-2026
+DEFINITION  Denitrifying bacterium nirS gene for nitrite reductase, complete cds.
+VERSION     CP099002.1
+SOURCE      denitrifying bacterium
+  ORGANISM  denitrifying bacterium
+FEATURES             Location/Qualifiers
+     CDS             1..120
+                     /product="nitrite reductase nirS"
+ORIGIN      
+        1 atgaccgcca gcgccaccgc caccgtcgcc ggcgccctcg ccggcgccgc cctcgccatg
+//
+LOCUS       CP099003                 120 bp    DNA     linear   BCT 12-MAY-2026
+DEFINITION  Denitrifying bacterium norB gene for nitric oxide reductase, complete cds.
+VERSION     CP099003.1
+SOURCE      denitrifying bacterium
+  ORGANISM  denitrifying bacterium
+FEATURES             Location/Qualifiers
+     CDS             1..120
+                     /product="nitric oxide reductase norB"
+ORIGIN      
+        1 atgcccctcg ccgccctcct cgccgccctc ggcctcgccg gcctcgccct cctcgccatg
+//
+LOCUS       CP099004                 120 bp    DNA     linear   BCT 12-MAY-2026
+DEFINITION  Denitrifying bacterium nosZ gene for nitrous oxide reductase, complete cds.
+VERSION     CP099004.1
+SOURCE      denitrifying bacterium
+  ORGANISM  denitrifying bacterium
+FEATURES             Location/Qualifiers
+     CDS             1..120
+                     /product="nitrous oxide reductase nosZ"
+ORIGIN      
+        1 atgctcgcca gcgccctcct cgccgccgcc ggcctcgccg ccgccgccct cctcgccatg
+//
+LOCUS       CP099005                 120 bp    DNA     linear   BCT 12-MAY-2026
+DEFINITION  Denitrifying bacterium azurin gene, complete cds.
+VERSION     CP099005.1
+SOURCE      denitrifying bacterium
+  ORGANISM  denitrifying bacterium
+FEATURES             Location/Qualifiers
+     CDS             1..120
+                     /product="azurin electron transfer protein"
+ORIGIN      
+        1 atggccgcca gcgccctcct caccgccgcc ctcgccgccg gactcgccgg cctcgccatg
+//
