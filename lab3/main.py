@@ -4,7 +4,7 @@
 import os
 import matplotlib.pyplot as plt
 import matplotlib
-matplotlib.use('Agg')  # Настройка для работы на серверах без экрана
+matplotlib.use('Agg')
 
 import statsmodels.api as sm
 from sklearn.datasets import load_iris, load_wine
@@ -60,7 +60,7 @@ plt.close()
 elnino_table = sm.datasets.elnino.load().data
 elnino_filtered = elnino_table[(elnino_table['YEAR'] >= 1990) & (elnino_table['YEAR'] <= 2010)]
 
-plt.plot(elnino_filtered['YEAR'], elnino_filtered['AIR'])
+plt.plot(elnino_filtered['YEAR'], elnino_filtered['JAN'])
 plt.xlabel('Year')
 plt.ylabel('Temperature Anomalies')
 plt.title('Elnino Dynamics: 1990-2010 (Variant 3)')
