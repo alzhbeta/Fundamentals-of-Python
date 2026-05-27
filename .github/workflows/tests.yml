@@ -48,3 +48,5 @@ jobs:
 
       - name: Run tests and coverage for Lab 4
         run: pytest --cov=lab4/modules --cov-report=term-missing lab4/test_main.py -v
+        env:
+          PYTHONPATH: ${{ github.workspace }}
