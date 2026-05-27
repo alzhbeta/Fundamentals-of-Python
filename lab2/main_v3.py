@@ -1,3 +1,6 @@
+# ЛАБОРАТОРНАЯ РАБОТА №2 
+# РАБОТА С ФАЙЛАМИ В PYTHON
+
 # Вариант 3. Нахождение мРНК по протеину
 from Bio.Data import CodonTable
 from collections import defaultdict
