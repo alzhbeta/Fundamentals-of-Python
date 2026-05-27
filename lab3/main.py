@@ -1,12 +1,15 @@
 # ЛАБОРАТОРНАЯ РАБОТА №3
 # ПРЕДСТАВЛЕНИЕ ДАННЫХ В PYTHON
 
+import os
 import matplotlib.pyplot as plt
 import matplotlib
-matplotlib.use('Agg')
+matplotlib.use('Agg')  # Настройка для работы на серверах без экрана
 
 import statsmodels.api as sm
 from sklearn.datasets import load_iris, load_wine
+
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Задание 1. Построение диаграммы рассеяния
 # Вариант 1. Датасет iris
@@ -20,7 +23,7 @@ plt.scatter(x_iris, y_iris, c=classes_iris)
 plt.xlabel('Sepal length (cm)')
 plt.ylabel('Sepal width (cm)')
 plt.title('Iris Scatter Plot (Variant 1)')
-plt.savefig('lab3/iris_scatter.png')
+plt.savefig(os.path.join(CURRENT_DIR, 'iris_scatter.png'))
 plt.close()
 
 # Задание 1. Построение диаграммы рассеяния
@@ -35,7 +38,7 @@ plt.scatter(x_wine, y_wine, c=classes_wine)
 plt.xlabel('Alcohol')
 plt.ylabel('Proline')
 plt.title('Wine Scatter Plot (Variant 3)')
-plt.savefig('lab3/wine_scatter.png')
+plt.savefig(os.path.join(CURRENT_DIR, 'wine_scatter.png'))
 plt.close()
 
 # Задание 2. Построение графика динамики временных рядов
@@ -48,7 +51,7 @@ plt.plot(co2_filtered.index, co2_filtered['co2'])
 plt.xlabel('Year')
 plt.ylabel('CO2 levels')
 plt.title('CO2 Dynamics: 1958-1980 (Variant 1)')
-plt.savefig('lab3/co2_dynamics.png')
+plt.savefig(os.path.join(CURRENT_DIR, 'co2_dynamics.png'))
 plt.close()
 
 # Задание 2. Построение графика динамики временных рядов
@@ -61,5 +64,5 @@ plt.plot(elnino_filtered['YEAR'], elnino_filtered['AIR'])
 plt.xlabel('Year')
 plt.ylabel('Temperature Anomalies')
 plt.title('Elnino Dynamics: 1990-2010 (Variant 3)')
-plt.savefig('lab3/elnino_dynamics.png')
+plt.savefig(os.path.join(CURRENT_DIR, 'elnino_dynamics.png'))
 plt.close()
