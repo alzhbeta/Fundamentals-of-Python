@@ -2,7 +2,6 @@ from lab4.modules.fetch_sequences import get_records
 from lab4.modules.analyze_gc import sort_by_gc
 from lab4.modules.translate_sequences import extract_and_translate
 
-
 def main():
     records = get_records()
 
